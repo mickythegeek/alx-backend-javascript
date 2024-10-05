@@ -1,0 +1,1 @@
+Modifying ECMAScript functions using const
