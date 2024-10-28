@@ -9,4 +9,4 @@ function GetNeighborhoodsList() {
 
 const neighbourhoods = new GetNeighborhoodsList();
 neighbourhoods.addNeighborhood('Ibadan');
-console.log('Results: ', neighbourhoods.sanFranciscoNeighborhoods);
+console.log(neighbourhoods.sanFranciscoNeighborhoods);
