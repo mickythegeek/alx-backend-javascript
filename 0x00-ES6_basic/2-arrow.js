@@ -8,3 +8,7 @@ function getNeighborhoodsList() {
     return this.sanFranciscoNeighborhoods;
   };
 }
+
+const neighbourhoods = new getNeighborhoodsList();
+neighbourhoods.addNeighborhood('Ibadan');
+console.log(neighbourhoods.sanFranciscoNeighborhoods);
