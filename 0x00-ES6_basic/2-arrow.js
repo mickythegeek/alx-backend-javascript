@@ -9,4 +9,4 @@ function getNeighborhoodsList() {
 }
 
 const neighbourhoods = getNeighborhoodsList();
-console.log(neighbourhoods.addNeighborhood('Taiwan'));
+console.log(neighbourhoods.addNeighborhood('Tenderloin'));
