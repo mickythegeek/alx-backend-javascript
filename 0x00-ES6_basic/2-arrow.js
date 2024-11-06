@@ -1,14 +1,13 @@
 /* eslint new-cap: ["error", { "capIsNewExceptions": ["getNeighborhoodsList"] }] */
-
-export default function getNeighborhoodsList() {
+function getNeighborhoodsList() {
   this.sanFranciscoNeighborhoods = ['SOMA', 'Union Square'];
 
-  this.addNeighborhood = (newNeighborhood) => {
-    this.sanFranciscoNeighborhoods.push(newNeighborhood);
-    return this.sanFranciscoNeighborhoods;
+  const addNeighborhood = (newNeighborhood) => {
+    sanFranciscoNeighborhoods.push(newNeighborhood);
+    return sanFranciscoNeighborhoods;
   };
+  return { sanFranciscoNeighborhoods, addNeighborhood };
 }
 
-const neighbourhoods = new getNeighborhoodsList();
-neighbourhoods.addNeighborhood('Ibadan');
-console.log(neighbourhoods.sanFranciscoNeighborhoods);
+const neighbourhoods = getNeighborhoodsList();
+console.log(getNeighborhoodsList.addNeighborhood("Ibadan"));
